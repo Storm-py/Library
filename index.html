@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Books Library</title>
+</head>
+<body>
+    <main class="">
+        <div class="h-screen w-full flex items-center justify-center text-white bg-black flex-col">
+
+            <a href="/Library.html" class=" text-4xl font-black mb-10">Create A Book</a>
+            <div id="formContainer">
+                <form class="form flex items-center justify-center flex-col  h-96 w-96 gap-3 border-2 border-white p-4" >
+                    <input class="image h-16 w-full p-2 rounded-md bg-zinc-400" type="url" name="" id="">
+                    <input class="name h-16 w-full p-2 rounded-md bg-zinc-400" type="text" placeholder="Name " name="name" id="">
+                    <input class="description h-16 w-full p-2 rounded-md bg-zinc-400" type="text" placeholder="description" name="description" id="">
+                    <input class="author h-16 w-full p-2 rounded-md bg-zinc-400" type="text" placeholder="author" name="author" id="">
+                    <input class="date h-16 w-full p-2 rounded-md bg-zinc-400" type="text" placeholder="date " name="date" id="">
+                    <input class="bg-blue-700 px-4 py-2 text-xl rounded-md" type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+        </div>
+        <div class="library h-full w-full flex items-center justify-center text-white bg-black p-6 flex-wrap gap-4">
+            </div>
+        </div>
+            
+    <script src="script.js"></script>
+</main>
+</body>
+</html>
